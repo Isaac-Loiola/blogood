@@ -3,7 +3,7 @@
 
 body{
     font-family: 'Jost';
-    background-color:#F8F1FF;
+    background-color:#FFFBFC;
     color: #170F11;
 }
 .container{
@@ -13,6 +13,8 @@ body{
 }
 
 header{
+    background-size: cover;
+    background-position: top;
     padding: 20px;
     display: flex;
     align-items: center;
