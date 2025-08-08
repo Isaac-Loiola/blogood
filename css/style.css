@@ -166,12 +166,15 @@ main{
 
 .poster-litle{
     width: 340px;
+    
     flex-direction: column;
     align-items: flex-end;
 }
 
 .poster-users-litle{
     width: 100%;
+    
+    margin-bottom: 20px;
     background-color: #FFF;
     padding: 10px;
     border-radius: 10px;
