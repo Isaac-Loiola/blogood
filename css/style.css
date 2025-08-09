@@ -87,7 +87,15 @@ main{
     flex-wrap: wrap;
     align-items: center;
 }
+.cards-1-container{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 
+}
 .cards-1{
     width: 200px;
 
@@ -136,6 +144,15 @@ main{
     flex-wrap: wrap;
 }
 
+#article-poster{
+    display: flex;
+    
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px 0 0px 20px;
+    align-self: flex-end;
+}
+
 /* -- big poster left --*/
 .poster{
     width: 650px;
@@ -154,18 +171,35 @@ main{
     margin-right: 20px;
     margin-bottom: 30px;
     box-shadow: 0 0.25rem  10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.5s ease ;
+
+    transition: transform 0.5s ease;
+}
+
+.poster-users:hover{
+    transform: scale(1.02);
 }
 
 .content-poster-users{
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-weight: 600;
 }
 
+
+.date-poster-users, .name-user-poster, .name-user-poster-litle, .date-poster-users-litle{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+
+.paragraph-poster-user{
+    margin-top: 15px;
+}
 /* -- end big poster left --*/
 
 .poster-litle{
-    width: 340px;
+    width: 342px;
     
     flex-direction: column;
     align-items: flex-end;
@@ -181,6 +215,10 @@ main{
 
     box-shadow: 0 0.25rem  10px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s ease ;
+}
+
+.poster-users-litle:hover{
+    transform: scale(1.02);
 }
 
 footer{
