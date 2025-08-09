@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
     font-family: 'Jost';
@@ -13,8 +14,7 @@ body{
 }
 
 header{
-    background-size: cover;
-    background-position: top;
+    
     padding: 20px;
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@ header{
     padding: 8px 15px;
     text-decoration: none;
     font-weight: 500;
-    color: #FCBA04;
+    color: #E59500;
     background-color: #170F11;
     border-radius: 20px;
 
@@ -51,7 +51,15 @@ header{
     font-size: 35px;
     margin-top: 20px ;
     font-weight: 500;
-    color: #FCBA04;
+    color: #031927;
+}
+#title-logo{
+    font-family: 'MuseoModerno';
+    font-weight: 700;
+}
+
+#title-logo-dot{
+    color: #E59500;
 }
 
 #paragraph-header{
@@ -86,6 +94,17 @@ main{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+}
+#article-cards-1{
+    display: flex;
+    align-self: flex-end;
+    
+    font-weight: 600;
+    font-size: 25px;
+    color: #031927;
+    font-family: 'MuseoModerno';
+
+    margin: 10px 0 20px 20px;
 }
 .cards-1-container{
     width: 100%;
@@ -146,11 +165,14 @@ main{
 
 #article-poster{
     display: flex;
+    align-self: flex-end;
     
     font-weight: 600;
     font-size: 25px;
+    color: #031927;
+    font-family: 'MuseoModerno';
+
     margin: 10px 0 0px 20px;
-    align-self: flex-end;
 }
 
 /* -- big poster left --*/
@@ -231,7 +253,7 @@ footer{
     text-decoration: none;
     font-weight: 500;
     padding: 10px 20px;
-    color: #FCBA04;
+    color: #E59500;
     background-color: #170F11;
     border-radius: 10px;
 
