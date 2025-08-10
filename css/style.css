@@ -259,7 +259,7 @@ footer{
     margin-bottom: 30px;
     color: #E59500;
     background-color: #170F11;
-    border-radius: 10px;
+    border-radius: 20px;
 
     box-shadow: 0 0.8rem  15px rgba(0, 0, 0, 0.1);
     transition: color 0.3s ease;
@@ -268,3 +268,4 @@ footer{
 #more:hover{
     color: #FFF;
 }
+
