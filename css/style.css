@@ -271,8 +271,8 @@ footer{
 
 /* Midea Query  */
 @media(max-width: 722px){
+    
     main .cards-1-container{
-        width: 80%;
         align-items: center;
         flex-direction: colmn;
     }
