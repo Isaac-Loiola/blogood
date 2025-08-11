@@ -294,16 +294,26 @@ footer{
         flex-direction: column;
     }
 
+    main .poster-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
     main .poster{
         display: flex;
-        align-itens: center;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         flex-direction: row;
     }
-
-    main .poster.tile{
+    
+    main .poster-litle{
         width: 100%;
-        flex-direction: row;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     main .poster-users, main .poster-users-litle{
@@ -311,7 +321,7 @@ footer{
     }
     main .poster-users-litle{
         flex-direction: row;
-        width: 100%;
+        width: 50%;
     }
     
 
