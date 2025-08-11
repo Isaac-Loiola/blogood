@@ -16,19 +16,20 @@ body{
 header{
     padding: 20px;
     display: flex;
+    width: 100%;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#image-header{ 
+#image-header{
     display: flex;
     flex-direction: row;
     width: 200px;
     margin: 0;
 }
 
-#anchor-header{ 
+#anchor-header{
     margin: 30px 0 10px 0;
     display: flex;
     padding: 8px 15px;
@@ -45,7 +46,7 @@ header{
 #anchor-header:hover{
     /* background-color: #FCBA04; */
     color: #F8F1FF;
-   
+
 }
 
 #title-header{
@@ -81,8 +82,8 @@ header{
 
     border-width: 1px;
     border-radius: 8px;
-    
-    font-family: 'Jost';    
+
+    font-family: 'Jost';
     font-weight: 500;
 }
 
@@ -95,13 +96,13 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
 }
 #article-cards-1{
     display: flex;
     align-self: flex-end;
-    
+
     font-weight: 600;
     font-size: 25px;
     color: #031927;
@@ -113,6 +114,7 @@ main{
     width: 100%;
     padding: 0;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
@@ -169,7 +171,7 @@ main{
 #article-poster{
     display: flex;
     align-self: flex-end;
-    
+
     font-weight: 600;
     font-size: 25px;
     color: #031927;
@@ -225,14 +227,14 @@ main{
 
 .poster-litle{
     width: 342px;
-    
+
     flex-direction: column;
     align-items: flex-end;
 }
 
 .poster-users-litle{
     width: 100%;
-    
+
     margin-bottom: 20px;
     background-color: #FFF;
     padding: 10px;
@@ -271,9 +273,24 @@ footer{
 
 /* Midea Query  */
 @media(max-width: 722px){
-    
+    body{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    header #title-header{
+        font-size: 22px;
+    }
+    header #paragraph-header{
+        font-size: 15px;
+    }
+
     main .cards-1-container{
+        display: flex;
+        width: 100%;
+        display: flex;
         align-items: center;
-        flex-direction: colmn;
+        flex-direction: column;
     }
 }
