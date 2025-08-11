@@ -281,6 +281,10 @@ footer{
     main{
         width: 100%;
     }
+
+    header{
+        width: 100%;
+    }
     header #title-header{
         font-size: 22px;
     }
