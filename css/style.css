@@ -278,8 +278,6 @@ footer{
     }
     main{
         width: 100%;
-        margin: 0;
-        padding: 0;
     }
     header #title-header{
         font-size: 22px;
@@ -302,6 +300,7 @@ footer{
     }
 
     main .poster{
+        margin: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -326,5 +325,7 @@ footer{
         width: 80%;
     }
     
-
+    footer{
+        width: 100%;
+    }
 }
